@@ -33,6 +33,10 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+
+.text-box {
+    min-height: 200px;
+}
 body,
 html {
     width: 100%;
@@ -359,8 +363,14 @@ input[type='checkbox'] {
 	line-height: 0;
 	cursor: pointer;
 	transition: all 0.2s;
+	text-align: center !important;
 }
-
+.social-container {
+    text-align: center;
+}
+ h2{
+	text-align: center;
+}
 .form-control-submit-button:hover {
 	border: 1px solid #24262a;
 	background-color: transparent;
@@ -385,8 +395,7 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 118px;
-	height: 36px;
+    width: 100px;
 }
 
 .navbar .logo-text {
@@ -442,7 +451,15 @@ input[type='checkbox'] {
 .navbar .dropdown .dropdown-menu {
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
-
+li.nav-item {
+    list-style: none;
+    margin-left: 20px;
+    color: #fff !important;
+}
+li.nav-item a,.social-icons a{
+	color:#fff;
+	text-decoration: none;
+}
 @keyframes fadeDropdown {
     0% {
         opacity: 0;

@@ -1,0 +1,29 @@
+*{
+	direction: rtl;
+	text-align: right;
+    font-family: 'Tajawal' , sans-serif !important;
+}
+
+.label-control {
+
+	right: 1.5rem;
+    left: auto;
+}
+
+.dropdown-toggle::after{
+    margin-right: 0.255em;
+    margin-left: auto;
+}
+
+
+p.p-heading.multi-lang {
+    text-align: center;
+}
+.dropdown-item{
+    text-align: right;
+}
+
+.dropdown-menu{
+    right: 0;
+    left: auto;
+}
